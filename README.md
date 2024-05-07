@@ -1,6 +1,6 @@
-# Hello, this is MusicPlug! 👋
+# Hello, this is MusicPlug! 🎶 
 
-✨ Cool **Music** for the **Soul**! 🎨
+😎 Cool **Music** for the **Soul**! 🌟
 
 ## 🛠 Collaborators
 - Maria
