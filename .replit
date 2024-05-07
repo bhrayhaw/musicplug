@@ -1,4 +1,4 @@
-entrypoint="index.html"
+entrypoint="homepage.html"
 hidden=[".config"]
 modules = ["web:v2-20230623-0b7a606"]
 
