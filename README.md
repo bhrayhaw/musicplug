@@ -1,2 +1,12 @@
-# ad-l4
-AD-07-1 The blog Site - Group
+# Hello, this is the MusicPlug Blog Site! 🎶 
+
+😎 Cool **Music** for the **Soul**! 🌟
+
+## 🛠 Collaborators
+- Maria
+- Elijah
+- Angela
+- Perpetual
+- William
+- Timothy
+- Gideon
