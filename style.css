@@ -38,7 +38,7 @@ h1 {
 .about-photo {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 5px;
   transition: transform 0.3s ease;
