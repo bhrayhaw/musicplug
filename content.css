@@ -1,0 +1,86 @@
+body {
+  font-family: 'Trebuchet MS';
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.hero {
+  background-color: #e2e2e2;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #333;
+}
+
+.hero p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.hero-image {
+  width: 50%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.content h2, .content h3, .content h4 {
+  color: #333;
+}
+
+.content p {
+  color: #555;
+}
+
+.content-image {
+  width: 50%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+.testimonials {
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #333;
+}
+
+.testimonials p {
+  color: #555;
+  font-size: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  color: #666;
+  margin: 1rem 0;
+}
+
+.testimonial-image {
+  width: 50%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+
+
