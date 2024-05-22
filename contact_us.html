@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+    $(function(){
+      $("#navbar-placeholder").load("navbar.html");
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+
+    </head>
+
+    <body style="justify-items: center; justify-content: center; display: flex;">
+
+        <div id="navbar-placeholder"></div>
+
+        <section style="width: 80%; margin: 10px;">
+
+            <div
+                style="background-color: blue; border-radius: 15px; padding: 80px; 
+                    color: white; margin: 20px; justify-content: center;">
+                <h3>Contact us</h3>
+
+                <div>
+
+                    <span><b>Address:</b> 198 West 21th Street,
+                        Suite 721 New York NY 10016</span>
+
+                </div>
+
+                <div>
+                    <span><b>Phone:</b> <a style="color: white;"
+                            href="tel://1234567920">+ 1235 2355
+                            98</a></span>
+
+                </div>
+
+                <div>
+
+                    <span><b>Email:</b> <a style="color: white;"
+                            href="mailto:info@yoursite.com">info@yroom3.com</a></span>
+
+                </div>
+
+                <div>
+                    <span><b>Website: </b> <a style="color: white;"
+                            href="https://github.com/bhrayhaw/musicplug/">Room
+                            3</a></span>
+                </div>
+
+                <div
+                    style="background-color: yellow; align-items: center; border-radius: 20px; padding: 20px; margin: 30px;">
+
+                    <h3>Get in touch with us</h3>
+
+                    <form method="POST">
+                        <div>
+                            <div>
+                                <input type="text" name="name"
+                                    placeholder="Name">
+
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Email">
+
+                            </div>
+                            <div>
+
+                                <input type="text" placeholder="Subject">
+
+                            </div>
+                            <div>
+
+                                <textarea name="message"
+                                    placeholder="Message"></textarea>
+
+                            </div>
+                            <div>
+
+                                <input type="submit"
+                                    value="Send Message"
+                                    class="btn btn-primary">
+
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div id="footer-placeholder"></div>
+
+    </body>
+
+</html>
