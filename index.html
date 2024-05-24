@@ -1,26 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light gray for contrast */
+        }
+        .navbar {
+            background-color: #344c64;
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+        .nav-link:hover {
+            color: #57a6a1 !important;
+        }
+        .about-section {
+            background-color: #240750;
+            color: #ffffff;
+        }
+        .about-content {
+            margin-top: 20px;
+        }
+        .about-text p {
+            color: #577b8d;
+        }
+        footer {
+            background-color: #344c64;
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-  <section class="about-section">
-    <h1>Welcome to Group 3's Music Blog</h1>
-    <div class="about-content">
-      <div class="about-text">
-        <p>Group 3 is a passionate team of music enthusiasts, dedicated to sharing our love for music with the world. Our blog is a platform where we curate and create content that celebrates the artistry, diversity, and culture of music.</p>
-        <img src="Pic\Photo1.jpg" alt="Music Image 1" class="about-photo">
-        <p>Through our blog, we aim to provide a unique perspective on the music industry, highlighting emerging artists, trends, and genres. We believe that music has the power to inspire, unite, and evoke emotions, and we strive to showcase its transformative impact on society.</p>
-        <img src="Pic\Photo2.jpg" alt="Music Image 2" class="about-photo">
-        <p>Our mission is to create a community of music lovers who appreciate and engage with music in meaningful ways. Whether you're a casual listener or a die-hard fan, Group 3's Music Blog is your go-to destination for all things music.</p>
-        <img src="Pic\Photo5.jpg" alt="Music Image 3" class="about-photo">
-        <p>Join us on this musical journey as we explore the depths of sound, rhythm, and melody. Let the music guide you, inspire you, and connect you to the world around you.</p>
-        <img src="Pic\Photo4.webp" alt="Music Image 4" class="about-photo">
-      </div>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Music Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
     </div>
-  </section>
+</nav>
+
+<div class="container mt-5 about-section">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h1 class="text-center">Welcome to Group 3's Music Blog</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Group 3 is a passionate team of music enthusiasts, dedicated to sharing our love for music with the world. Our blog is a platform where we curate and create content that celebrates the artistry, diversity, and culture of music.</p>
+                    <img src="Pic/Photo3.jpeg" alt="Music Image 1" class="img-fluid mb-4">
+                    <p>Through our blog, we aim to provide a unique perspective on the music industry, highlighting emerging artists, trends, and genres. We believe that music has the power to inspire, unite, and evoke emotions, and we strive to showcase its transformative impact on society.</p>
+                    <img src="Pic/Photo2.jpg" alt="Music Image 2" class="img-fluid mb-4">
+                    <p>Our mission is to create a community of music lovers who appreciate and engage with music in meaningful ways. Whether you're a casual listener or a die-hard fan, Group 3's Music Blog is your go-to destination for all things music.</p>
+                    <img src="Pic/Photo5.jpg" alt="Music Image 3" class="img-fluid mb-4">
+                    <p>Join us on this musical journey as we explore the depths of sound, rhythm, and melody. Let the music guide you, inspire you, and connect you to the world around you.</p>
+                    <img src="Pic/Photo4.webp" alt="Music Image 4" class="img-fluid mb-4">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+<footer class="py-3 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <p>Team Members:</p>
+                <p>Elijah - elijah@gmail.com</p>
+                <p>Maria - maria@gmail.com</p>
+                <p>Timothy - timothy@gmail.com</p>
+                <p>Angela - angela@gmail.com</p>
+                <p>Perpetual - perpetual@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
