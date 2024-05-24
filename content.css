@@ -4,27 +4,27 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  color: white;
 }
 
 header, footer {
   background-color: #333;
-  color: white;
   text-align: center;
   padding: 1rem 0;
 }
 
 .hero {
-  background-color: #e2e2e2;
+  background-color: #57A6A1;
   padding: 2rem;
   text-align: center;
 }
 
 .hero h1 {
-  color: #333;
+  color: white;
 }
 
 .hero p {
-  color: #666;
+  color: #240750;
   font-size: 1.2rem;
 }
 
@@ -37,15 +37,9 @@ header, footer {
 
 .content {
   padding: 2rem;
+  color: white;
 }
 
-.content h2, .content h3, .content h4 {
-  color: #333;
-}
-
-.content p {
-  color: #555;
-}
 
 .content-image {
   width: 50%;
@@ -55,24 +49,21 @@ header, footer {
 }
 
 .testimonials {
-  background-color: #fff;
   padding: 2rem;
   text-align: center;
+  color: white;
 }
 
-.testimonials h2 {
-  color: #333;
-}
 
 .testimonials p {
-  color: #555;
   font-size: 1rem;
+  color: white;
 }
 
 blockquote {
   font-style: italic;
-  color: #666;
   margin: 1rem 0;
+  color: white;
 }
 
 .testimonial-image {
@@ -80,4 +71,35 @@ blockquote {
   height: auto;
   margin-top: 1rem;
   border-radius: 10px;
+}
+
+p {
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+}
+
+.spacing {
+  margin-bottom: 50px;
+}
+
+.body-spacing {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  background-color: #240750;
+}
+
+.add-space1 {
+  width: 30%;
+}
+
+.add-space2 {
+  width: 30%;
+}
+
+* {
+  color: white;
 }
